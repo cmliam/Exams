@@ -1,0 +1,23 @@
+#question1
+#studentname= liam O toole
+
+taylorswiftsongs = ["love story","shake it off","delicate","wildest dreams","all too well","blank space","bad blood","you belong with me","red","22"]# A put sons into a list
+print("this is a list of taylor swift songs,taylorsiwftsongs,
+
+taylorswiftsong = input("please enter the taylor swift song you're looking for")
+if the song is in the list:
+   print("the song is in the list")
+else:
+    print("sorry the song is not in the list")
+
+print("wlcome to the temperature alert system")#displaying a message
+tempature =int(input("value in degrees celsius"))
+
+if tempature <20:
+    print("too cold. turn up heating")#if tempature is below 20 it will display (too cold. turn p the heating)
+    
+elif tempature <=24:
+    print("tempature is just right.")#if the tempature is bewtween 20 and 24 is will display ( tempature is just right)
+
+else:
+    print("too warm.turn down heating")#otherwise if the tempature is more thean 24 it will display (too warm turn down heating)

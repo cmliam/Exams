@@ -1,0 +1,31 @@
+#Question 1
+#Student Name:
+Theprogram = ("welcome to the drving licence eligibility checker")#i. 
+print(Theprogram)
+
+name = input("what is your name")#v
+
+age=int(input("What age are you?"))#ii. line 6 is asking the user to input what age they are.
+
+if (age <=74):
+    print("you entered",age,name,"You are entitled to apply for a driving licence.")#iii
+
+elif (age <17):
+    print("you entered",age,name,"you are not entitled to apply for a driving licence,")#iv
+
+else:
+    print("you entered",age,name,"you are entitled to apply for a three-year driving licence.")#vi
+
+    #Question 2
+#student Name:Liam O Toole
+import random
+
+#while != number:
+number = int(input("guess a number between 1 and 50"))
+if number <1:
+    print("your guess is too low")
+elif number >50:
+    print("your guess is too high")
+else:
+    print("you have won")
+    

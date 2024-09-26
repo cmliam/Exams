@@ -1,0 +1,52 @@
+#question 1 (a)
+#liam o toole
+
+print("this program can find the perimeter or area of a quadrilateral")#(i) printing the message for the user.
+
+lenght = int(input("please enter the lenght"))
+float(lenght)
+
+width = int(input("please enter the width"))
+
+name = input("please enter your name:")#(ii) asking the user to enter their name.
+
+
+choice = input("do you want to find the (p)ermiter or (a)rea? ")
+if choice == "p":
+    print(lenght + lenght + width + width)
+elif choice == "a":
+    print(lenght*width)
+print("a quadrilateral with a lenght of",lenght,"and a width of",width,"has an area of:",lenght*width)#(v)
+print("thank you for using the program",name)
+
+
+#question (b)
+#liam o toole
+
+import random
+
+compuer_options = ["rock","paper","scissors"]
+player = input("enter rock, paper or scissors:")
+print("player chose:",player)
+
+
+computer_choice = compuer_options [random.randint(0,2)]
+print("computer chose:",computer_choice)
+
+
+#question (2)
+#liam o toole
+
+
+vipsold = int(input("please enter the amount of vip tickets sold"))
+
+regularsold = int(input("please enter the amount of regular tickets sold"))
+
+budgetsold = int(input("please enter the amount of budget tikets sold"))
+
+vip = (vipsold * 150)
+regular = (regularsold * 75)
+budget = (budgetsold * 40)
+
+total = (vip + regular + budget)
+print(total)
